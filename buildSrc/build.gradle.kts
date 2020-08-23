@@ -13,6 +13,7 @@ dependencies {
     plugin.apply {
         implementation(detekt)
         implementation(kotlin)
+        implementation(kotlinSerialization)
         implementation(versions)
     }
 }
