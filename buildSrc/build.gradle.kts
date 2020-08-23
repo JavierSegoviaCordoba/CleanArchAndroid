@@ -10,5 +10,8 @@ repositories {
 }
 
 dependencies {
-    implementation(plugin.kotlin)
+    plugin.apply {
+        implementation(kotlin)
+        implementation(detekt)
+    }
 }
