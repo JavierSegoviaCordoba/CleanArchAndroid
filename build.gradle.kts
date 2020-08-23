@@ -1,5 +1,6 @@
 plugins {
     Detekt
+    Versions
 }
 
 repositories {

@@ -11,7 +11,8 @@ repositories {
 
 dependencies {
     plugin.apply {
-        implementation(kotlin)
         implementation(detekt)
+        implementation(kotlin)
+        implementation(versions)
     }
 }
