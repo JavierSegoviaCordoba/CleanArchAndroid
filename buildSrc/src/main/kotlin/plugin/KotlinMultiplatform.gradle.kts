@@ -7,3 +7,18 @@ repositories {
     mavenCentral()
     jcenter()
 }
+
+kotlin {
+    jvm()
+
+    sourceSets {
+        commonMain {
+            dependencies {
+                common.apply {
+                    implementation(coroutinesCore)
+                    implementation(serializationCore)
+                }
+            }
+        }
+    }
+}
