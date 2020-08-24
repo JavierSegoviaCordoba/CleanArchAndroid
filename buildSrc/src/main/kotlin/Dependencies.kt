@@ -2,6 +2,7 @@
 
 object common {
     val coroutinesCore = kotlinx("coroutines-core") version version.coroutines
+    val resource = "com.javiersc.resources:resource" version version.resource
     val serializationCore = kotlinx("serialization-core") version version.kotlinSerialization
 }
 
