@@ -1,7 +1,8 @@
 @file:Suppress("Filename", "MatchingDeclarationName", "ClassName", "ClassNaming")
 
 object common {
-    val kotlinSerialization = kotlinx("serialization-core") version version.kotlinSerialization
+    val coroutinesCore = kotlinx("coroutines-core") version version.coroutines
+    val serializationCore = kotlinx("serialization-core") version version.kotlinSerialization
 }
 
 object plugin {
