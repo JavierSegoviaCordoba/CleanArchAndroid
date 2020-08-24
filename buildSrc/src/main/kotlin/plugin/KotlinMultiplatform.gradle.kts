@@ -3,10 +3,7 @@ plugins {
     id("org.jetbrains.kotlin.plugin.serialization")
 }
 
-repositories {
-    mavenCentral()
-    jcenter()
-}
+commonRepositories
 
 kotlin {
     jvm()
