@@ -6,6 +6,19 @@ object common {
     val serializationCore = kotlinx("serialization-core") version version.kotlinSerialization
 }
 
+object android {
+    val composeAnimation = "androidx.compose.animation:animation" version version.compose
+    val composeAnimationCore = "androidx.compose.animation:animation-core" version version.compose
+    val composeCompiler = "androidx.compose:compose-compiler" version version.compose
+    val composeFoundation = "androidx.compose.foundation:foundation" version version.compose
+    val composeFoundationLayout = "androidx.compose.foundation:foundation-layout" version version.compose
+    val composeFoundationText = "androidx.compose.foundation:foundation-text" version version.compose
+    val composeMaterial = "androidx.compose.material:material" version version.compose
+    val composeRuntime = "androidx.compose.runtime:runtime-*" version version.compose
+    val composeUI = "androidx.compose.ui:ui" version version.compose
+    val composeUItooling = "androidx.ui:ui-tooling" version version.compose
+}
+
 object plugin {
     val android = "com.android.tools.build:gradle" version version.android
     val detekt = "io.gitlab.arturbosch.detekt:detekt-gradle-plugin" version version.detekt
