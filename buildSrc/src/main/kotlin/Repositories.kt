@@ -8,5 +8,6 @@ val Project.commonRepositories: Unit
             maven("https://oss.sonatype.org/content/repositories/snapshots")
             mavenCentral()
             jcenter()
+            google()
         }
     }
