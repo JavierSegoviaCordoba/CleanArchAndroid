@@ -1,6 +1,7 @@
 @file:Suppress("Filename", "MatchingDeclarationName", "ClassName", "ClassNaming")
 
 object version {
+    const val android = "4.2.0-canary08"
     const val coroutines = "1.3.9"
     const val detekt = "1.11.2"
     const val kotlin = "1.4.0"

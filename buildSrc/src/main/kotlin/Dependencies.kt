@@ -7,6 +7,7 @@ object common {
 }
 
 object plugin {
+    val android = "com.android.tools.build:gradle" version version.android
     val detekt = "io.gitlab.arturbosch.detekt:detekt-gradle-plugin" version version.detekt
     val kotlin = kotlin("gradle-plugin") version version.kotlin
     val kotlinSerialization = kotlin("serialization") version version.kotlin
