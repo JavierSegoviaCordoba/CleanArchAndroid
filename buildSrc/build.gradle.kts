@@ -11,9 +11,10 @@ repositories {
 
 dependencies {
     plugin.apply {
+        implementation(android)
         implementation(detekt)
         implementation(kotlin)
         implementation(kotlinSerialization)
-        implementation(versions)
+        implementation(gradleVersions)
     }
 }
