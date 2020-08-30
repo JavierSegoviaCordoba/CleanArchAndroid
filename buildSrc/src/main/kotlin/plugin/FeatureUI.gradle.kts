@@ -11,7 +11,10 @@ plugins {
 commonRepositories
 
 android {
-    compileSdkVersion(30)
+    defaultConfig {
+        minSdkVersion(21)
+        compileSdkVersion(30)
+    }
 
     sourceSets {
         getByName("main") {
