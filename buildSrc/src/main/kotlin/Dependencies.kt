@@ -7,6 +7,7 @@ object commonDependency {
 }
 
 object androidDependency {
+    val appCompat = "androidx.appcompat:appcompat" version versions.appCompat
     val composeAnimation = "androidx.compose.animation:animation" version versions.compose
     val composeAnimationCore = "androidx.compose.animation:animation-core" version versions.compose
     val composeCompiler = "androidx.compose:compose-compiler" version versions.compose
